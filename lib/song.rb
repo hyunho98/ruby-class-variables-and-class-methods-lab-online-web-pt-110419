@@ -17,7 +17,12 @@ class Song
   end
 
   def genres
-    @@genres
+    array = []
+    @@genres.each{|index|
+      if array.include?(index) == false
+        array << index
+      end
+    }
   end
 
 end
