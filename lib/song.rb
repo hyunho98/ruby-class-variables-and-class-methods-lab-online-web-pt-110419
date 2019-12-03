@@ -23,6 +23,7 @@ class Song
         array << index
       end
     }
+    array
   end
 
 end
