@@ -46,5 +46,7 @@ class Song
       else
         hash[index] = 1
       end}
+    hash
+  end
 
 end
