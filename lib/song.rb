@@ -38,4 +38,13 @@ class Song
     array
   end
 
+  def self.genre_count
+    hash = {}
+    @@genres.each{|index|
+      if hash.has_key?(index)
+        hash[index] += 1
+      else
+        hash[index] = 1
+      end}
+
 end
