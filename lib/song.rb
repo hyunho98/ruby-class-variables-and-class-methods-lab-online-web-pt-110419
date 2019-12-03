@@ -16,7 +16,7 @@ class Song
     @@count
   end
 
-  def genres
+  def self.genres
     array = []
     @@genres.each{|index|
       if array.include?(index) == false
