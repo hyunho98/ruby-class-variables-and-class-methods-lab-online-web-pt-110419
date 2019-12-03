@@ -10,6 +10,9 @@ class Song
     self.artist = artist
   end
 
+  def count
+    @@count
+  end
 
 
 end
